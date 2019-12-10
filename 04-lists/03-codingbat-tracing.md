@@ -51,3 +51,38 @@ def double_23(list_1: list) -> bool:
     else:
         return False
 ```
+"""
+Array 1:FizzBuzz
+def fizzBuzz (start,end):
+  newfizzBuzz = []
+  for n in range(start,end):
+   if n//15 == 0:
+    newfizzBuzz.append("Fizzbuzz")
+   elif n//3==0:
+    newfizzBuzz.append("Fizz")
+   elif n//5 == 0:
+    newfizzBuzz.append(str(n))
+  return newfizzBuzz
+  """
+"""
+  Array 2: MiddleWay
+  def middleWay(list1,list2):
+    mid = []
+    mid.append(list[1])
+    mid.append(list2[1])
+    return mid
+
+  """
+"""
+Array 3: MakeEnds
+def makeEnds(list):
+  ends = []
+  end = len(list)-1
+  ends.append(list[0])
+  ends.appends(list.[end])
+  return ends
+"""
+"""
+Array 4:
+Not Finished
+"""
